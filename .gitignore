@@ -4,7 +4,10 @@ node_modules/
 # Environment variables
 .env
 .env.*
-!.env.example
+.env.example
+node_modules/
+dist/
+build/
 
 # Build
 dist/
@@ -27,4 +30,4 @@ Thumbs.db
 
 .env
 .env.*
-!.env.example
+
